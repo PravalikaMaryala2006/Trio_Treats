@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "3b24255a-a222-4df1-898b-3e12fc4ba11b",
+    "createdAt": "2026-11-13T14:51:39.996Z",
+    "updatedAt": "2026-11-13T15:44:06.578Z",
+    "code": "FIRST30",
+    "discount": 30,
+    "description": "Flat ₹30 OFF on your first Trio Treats bakery order!",
+    "minOrder": 100,
+    "isActive": true,
+    "usedByMobiles": [
+      "9876501234",
+      "9392190206"
+    ]
+  }
+]

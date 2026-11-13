@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "ec5fde96-3e66-4a48-85a0-d77ed3308292",
+    "createdAt": "2026-11-13T14:51:39.990Z",
+    "updatedAt": "2026-11-13T16:37:51.506Z",
+    "username": "Vinith_treats",
+    "fullName": "Vinith (Trio Treats Owner)",
+    "email": "vinith@triotreats.com",
+    "mobile": "7075881265",
+    "password": "$2a$10$Rm.IQ3MxvZIv41ujVRs8q.azECGjA.kk4n2Kq7a8CrmD0Liqc1sZW",
+    "role": "admin",
+    "usedFirst30Coupon": false,
+    "savedAddresses": [],
+    "wishlist": [],
+    "lastLoginAt": "2026-11-13T16:37:51.503Z"
+  },
+  {
+    "_id": "9209e614-94a5-4604-a0ba-7e3dac36e723",
+    "createdAt": "2026-11-13T15:19:49.434Z",
+    "updatedAt": "2026-11-13T15:19:49.552Z",
+    "fullName": "Rahul Sharma",
+    "mobile": "9876501234",
+    "email": "rahul@example.com",
+    "password": "$2a$10$AgU0QULqL4LLtcJu2S6LYOcvyY.K.iZSJSexEc6bcFFSOKB0YDQoK",
+    "role": "customer",
+    "usedFirst30Coupon": true,
+    "savedAddresses": [],
+    "wishlist": [],
+    "lastLoginAt": "2026-11-13T15:19:49.527Z"
+  },
+  {
+    "_id": "d8ed1b8d-b74e-4164-9f0f-8d9cc4f8b21c",
+    "createdAt": "2026-11-13T15:39:22.655Z",
+    "updatedAt": "2026-11-13T16:35:18.159Z",
+    "fullName": "Pravalika",
+    "mobile": "9392190206",
+    "email": "pravalikamaryala2006@gmail.com",
+    "password": "$2a$10$T5tE6ZS1ZFTLBvv9v9APcuoVo0sYkYxY14C3m49wHFlmR79qu3iMi",
+    "role": "customer",
+    "usedFirst30Coupon": true,
+    "savedAddresses": [
+      {
+        "id": "1794584614792",
+        "name": "pravalika",
+        "mobile": "9392190206",
+        "houseNo": "sapthagiri childrens park",
+        "street": "Main Road",
+        "area": "rampally",
+        "city": "Ghatkesar mandal",
+        "pincode": "501301",
+        "landmark": "",
+        "instructions": "",
+        "coordinates": {
+          "lat": 17.458855416666665,
+          "lng": 78.64765425
+        },
+        "isDefault": true,
+        "createdAt": "2026-11-13T15:43:34.792Z"
+      }
+    ],
+    "wishlist": [],
+    "lastLoginAt": "2026-11-13T16:35:18.155Z"
+  }
+]

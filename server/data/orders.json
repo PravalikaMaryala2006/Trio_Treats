@@ -1,0 +1,255 @@
+[
+  {
+    "_id": "e7071740-e61a-41df-90d5-0b4181064ea1",
+    "createdAt": "2026-11-13T15:19:49.543Z",
+    "updatedAt": "2026-11-13T15:51:33.364Z",
+    "orderId": "TT-2026-5008",
+    "userId": "9209e614-94a5-4604-a0ba-7e3dac36e723",
+    "customer": {
+      "name": "Rahul Sharma",
+      "phone": "9876501234",
+      "email": "rahul@example.com"
+    },
+    "items": [
+      {
+        "productId": "ce7c1f96-256e-431b-bf03-7bedb3d3c183",
+        "name": "Chocolate Cupcakes",
+        "price": 80,
+        "quantity": 2
+      },
+      {
+        "productId": "4d72933a-d288-4f8b-875e-fd78124550bc",
+        "name": "Red Velvet Cookies",
+        "price": 65,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 225,
+    "discount": 30,
+    "couponCode": "FIRST30",
+    "deliveryFee": 40,
+    "totalAmount": 235,
+    "deliveryAddress": {
+      "name": "Rahul Sharma",
+      "phone": "9876501234",
+      "houseNo": "Flat 402, Lotus Towers",
+      "street": "Jubilee Hills Road 36",
+      "area": "Jubilee Hills",
+      "city": "Hyderabad",
+      "pincode": "500033",
+      "landmark": "Near Starbucks",
+      "instructions": "",
+      "coordinates": null
+    },
+    "isSurpriseGift": false,
+    "recipientName": "",
+    "personalizedMessage": "",
+    "paymentStatus": "successful",
+    "paymentMethod": "UPI (Google Pay)",
+    "orderStatus": "Cancelled",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-11-13T15:19:49.543Z",
+        "note": "Your sweet treats order has been registered in the bakery system."
+      },
+      {
+        "status": "Payment Successful",
+        "timestamp": "2026-11-13T15:19:49.547Z",
+        "note": "Payment verified via UPI (Google Pay). Ref: UPI_REF_998811"
+      },
+      {
+        "status": "Order Accepted",
+        "timestamp": "2026-11-13T15:19:49.547Z",
+        "note": "Bakery kitchen has accepted your order."
+      },
+      {
+        "status": "Preparing Your Treats",
+        "timestamp": "2026-11-13T15:19:49.654Z",
+        "note": "Fresh batter prepared by chef"
+      },
+      {
+        "status": "Cancelled",
+        "timestamp": "2026-11-13T15:51:33.364Z",
+        "note": "Order updated to Cancelled"
+      }
+    ],
+    "transactionId": "UPI_REF_998811",
+    "paidAt": "2026-11-13T15:19:49.547Z"
+  },
+  {
+    "_id": "54ec67ba-dce6-4c02-a1fe-13597a8376dd",
+    "createdAt": "2026-11-13T15:43:34.808Z",
+    "updatedAt": "2026-11-13T16:07:50.109Z",
+    "orderId": "TT-2026-6944",
+    "userId": "d8ed1b8d-b74e-4164-9f0f-8d9cc4f8b21c",
+    "customer": {
+      "name": "pravalika",
+      "phone": "9392190206",
+      "email": "pravalikamaryala2006@gmail.com"
+    },
+    "items": [
+      {
+        "productId": "1a1d02e5-084d-4f9d-a19f-2e590d4cdd07",
+        "name": "Teddy Bear Lollipops",
+        "price": 120,
+        "image": "https://images.unsplash.com/photo-1582293041079-7814c2f12063?auto=format&fit=crop&w=800&q=80",
+        "category": "Special Treats",
+        "weight": "Set of 2 pops",
+        "quantity": 1,
+        "customNotes": "",
+        "boxSelections": null
+      }
+    ],
+    "subtotal": 120,
+    "discount": 30,
+    "couponCode": "FIRST30",
+    "deliveryFee": 40,
+    "totalAmount": 130,
+    "deliveryAddress": {
+      "name": "pravalika",
+      "phone": "9392190206",
+      "houseNo": "sapthagiri childrens park",
+      "street": "Main Road",
+      "area": "rampally",
+      "city": "Ghatkesar mandal",
+      "pincode": "501301",
+      "landmark": "",
+      "instructions": "",
+      "coordinates": {
+        "lat": 17.458855416666665,
+        "lng": 78.64765425
+      }
+    },
+    "isSurpriseGift": false,
+    "recipientName": "",
+    "personalizedMessage": "",
+    "paymentStatus": "successful",
+    "paymentMethod": "PhonePe",
+    "orderStatus": "Delivered",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-11-13T15:43:34.807Z",
+        "note": "Your sweet treats order has been registered in the bakery system."
+      },
+      {
+        "status": "Payment Successful",
+        "timestamp": "2026-11-13T15:44:06.574Z",
+        "note": "Payment verified via PhonePe. Ref: pay_1794584646566"
+      },
+      {
+        "status": "Order Accepted",
+        "timestamp": "2026-11-13T15:44:06.574Z",
+        "note": "Bakery kitchen has accepted your order."
+      },
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-11-13T15:51:25.780Z",
+        "note": "Order updated to Order Placed"
+      },
+      {
+        "status": "Payment Successful",
+        "timestamp": "2026-11-13T15:51:50.617Z",
+        "note": "Order updated to Payment Successful"
+      },
+      {
+        "status": "Order Accepted",
+        "timestamp": "2026-11-13T15:51:55.791Z",
+        "note": "Order updated to Order Accepted"
+      },
+      {
+        "status": "Payment Successful",
+        "timestamp": "2026-11-13T16:07:47.253Z",
+        "note": "Order updated to Payment Successful"
+      },
+      {
+        "status": "Delivered",
+        "timestamp": "2026-11-13T16:07:50.100Z",
+        "note": "Order updated to Delivered"
+      }
+    ],
+    "transactionId": "pay_1794584646566",
+    "paidAt": "2026-11-13T15:44:06.574Z"
+  },
+  {
+    "_id": "c48ff21c-84fa-463c-8865-8407741f6ab5",
+    "createdAt": "2026-11-13T16:33:56.975Z",
+    "updatedAt": "2026-11-13T16:35:05.403Z",
+    "orderId": "TT-2026-4854",
+    "userId": "d8ed1b8d-b74e-4164-9f0f-8d9cc4f8b21c",
+    "customer": {
+      "name": "pravalika",
+      "phone": "9392190206",
+      "email": "pravalikamaryala2006@gmail.com"
+    },
+    "items": [
+      {
+        "productId": "4e29d939-b676-4ea8-805d-688ca8eab28a",
+        "name": "Milk Chocolate (100g)",
+        "price": 130,
+        "image": "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=800&q=80",
+        "category": "Chocolates",
+        "weight": "100g bar",
+        "quantity": 1,
+        "customNotes": "",
+        "boxSelections": null
+      }
+    ],
+    "subtotal": 130,
+    "discount": 0,
+    "couponCode": "",
+    "deliveryFee": 40,
+    "totalAmount": 170,
+    "deliveryAddress": {
+      "name": "pravalika",
+      "phone": "9392190206",
+      "houseNo": "sapthagiri childrens park",
+      "street": "Main Road",
+      "area": "rampally",
+      "city": "Ghatkesar mandal",
+      "pincode": "501301",
+      "landmark": "",
+      "instructions": "",
+      "coordinates": {
+        "lat": 17.458855416666665,
+        "lng": 78.64765425
+      }
+    },
+    "isSurpriseGift": false,
+    "recipientName": "",
+    "personalizedMessage": "",
+    "paymentStatus": "successful",
+    "paymentMethod": "UPI Direct (QR / Intent)",
+    "orderStatus": "Order Accepted",
+    "statusHistory": [
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-11-13T16:33:56.961Z",
+        "note": "Your sweet treats order has been registered in the bakery system."
+      },
+      {
+        "status": "Payment Successful",
+        "timestamp": "2026-11-13T16:34:05.885Z",
+        "note": "Payment verified via UPI Direct (QR / Intent). Ref: pay_1794587645859"
+      },
+      {
+        "status": "Order Accepted",
+        "timestamp": "2026-11-13T16:34:05.885Z",
+        "note": "Bakery kitchen has accepted your order."
+      },
+      {
+        "status": "Order Placed",
+        "timestamp": "2026-11-13T16:35:02.070Z",
+        "note": "Order updated to Order Placed"
+      },
+      {
+        "status": "Order Accepted",
+        "timestamp": "2026-11-13T16:35:05.398Z",
+        "note": "Order updated to Order Accepted"
+      }
+    ],
+    "transactionId": "pay_1794587645859",
+    "paidAt": "2026-11-13T16:34:05.883Z"
+  }
+]

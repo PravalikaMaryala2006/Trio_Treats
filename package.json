@@ -1,0 +1,23 @@
+{
+  "name": "trio-treats-online-bakery",
+  "version": "1.0.0",
+  "description": "TRIO TREATS – Online Bakery Ordering Website ('A Little Bite of Happiness')",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "cd server && npm start",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "bakery",
+    "cupcakes",
+    "cookies",
+    "chocolates",
+    "brownies",
+    "swiggy",
+    "zomato",
+    "trio-treats"
+  ],
+  "author": "Vinith (Trio Treats)",
+  "license": "ISC"
+}
